@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudWith MySqlCoreMVC", "CrudWith MySqlCoreMVC\CrudWith MySqlCoreMVC.csproj", "{2A30AD03-C4C9-46FB-ABBD-8A440A9ACFDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A30AD03-C4C9-46FB-ABBD-8A440A9ACFDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A30AD03-C4C9-46FB-ABBD-8A440A9ACFDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A30AD03-C4C9-46FB-ABBD-8A440A9ACFDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A30AD03-C4C9-46FB-ABBD-8A440A9ACFDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BF50AD5-9121-4579-9A06-FDB8949691ED}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,50 @@
+﻿@model CrudWith_MySqlCoreMVC.Models.Product
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    <form method="post" asp-controller="Product" asp-action="Edit">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text" asp-for="Name" required="required" />
+                </td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td>
+                    <input type="number" min="0" asp-for="Price"
+                           required="required" />
+                </td>
+            </tr>
+            <tr>
+                <td>Quantity</td>
+                <td>
+                    <input type="number" min="0" asp-for="Quantity"
+                           required="required" />
+                </td>
+            </tr>
+            <tr>
+                <td>Status</td>
+                <td>
+                    <input type="checkbox" asp-for="Status" />
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <input type="submit" value="Save" />
+                    <input type="hidden" asp-for="Id" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
